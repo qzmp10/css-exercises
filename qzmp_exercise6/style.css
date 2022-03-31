@@ -7,11 +7,11 @@
   font-size: 14px;
 }
 
-.para {
+p {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -28,7 +28,7 @@
   font-size: 14px;
 }
 
-div.text {
+div {
   color: green;
   font-size: 22px;
 }
