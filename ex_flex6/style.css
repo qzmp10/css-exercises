@@ -22,31 +22,31 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 0;
+    flex: 1;
 }
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 8px;
 }
 .footer {
     display: flex;
     justify-content: space-between;
     background-color: rgb(226, 226, 226);
-    padding: 16px;
+    padding: 8px;
 }
 .left-links1, .right-links1 {
     display: flex;
     gap: 16px;
+    font-size: 10px;
 }
 .left-links2, .right-links2 {
     display: flex;
     gap: 16px;
+    font-size: 10px;
 }
 img {
-  width: 600px;
+  width: 300px;
 }
 
 button {
@@ -54,12 +54,14 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
+  font-size: 10px;
 }
 
 input {
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 8px 24px;
-  width: 400px;
+  width: 200px;
   margin-bottom: 16px;
 }
