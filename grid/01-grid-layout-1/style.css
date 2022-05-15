@@ -4,6 +4,9 @@ body, html {
 }
 
 .container {
+  display: grid;
+  grid-template: 100px 100px 500px 100px/ 300px 900px;
+  gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -20,10 +23,14 @@ body, html {
 }
 
 .header {
+  grid-column: span 2;
+  grid-row: 1 / 2;
   background-color: #FFDE22;
 }
 
 .sidebar {
+  grid-column: 1;
+  grid-row: 2 / 4;
   background-color: #FF7755;
 }
 
@@ -43,5 +50,7 @@ body, html {
 }
 
 .footer {
+  grid-column: span 2;
+  grid-row: 4 / 5;
   background-color: #393f4d;
 }
